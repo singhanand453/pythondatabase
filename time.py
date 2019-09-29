@@ -9,4 +9,4 @@ Subject:dvls,
 smtpObj = smtplib.SMTP("gamil.com",587)
 smtpObj.login("rockencena007@gmail.com","pass****")
 smtpObj.sendmail(sender_mail, receivers_mail, message)
-print("Successfully sent")
+print("mail Successfully sent")
